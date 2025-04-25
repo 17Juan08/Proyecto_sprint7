@@ -17,9 +17,8 @@ st.write(
 )
 
 # Cargar datos
-df = pd.read_csv(
-    'c:\\Users\\ING. JUAN ALVARADO\\Desktop\\Proyecto_sprint#7\\Proyecto_sprint7\\vehicles_us.csv'
-)
+url_data = 'https://raw.githubusercontent.com/17Juan08/Proyecto_sprint7/refs/heads/main/vehicles_us.csv'
+df = pd.read_csv(url_data)
 
 st.header("Dataset de vehículos usados")
 st.dataframe(df)
