@@ -41,10 +41,7 @@ Este proyecto es una **base funcional** sobre la cual se pueden integrar futuras
   - pandas
   - plotly_express
   - streamlit
- 
-# Cómo Ejecutarlo Localmente
 
-Si deseas correr el proyecto en tu máquina local:
 
 
 
